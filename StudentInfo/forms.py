@@ -7,6 +7,6 @@ class StudentAddForm(forms.ModelForm):
      # description = forms.CharField()
     class Meta:
         model = StudentInfo
-        fields = ['title', 'description', 'author','category','image']
+        fields = ['name', 'roll', 's_class']
 
 
